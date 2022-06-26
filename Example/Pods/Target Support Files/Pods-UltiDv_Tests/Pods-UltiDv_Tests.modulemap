@@ -1,0 +1,6 @@
+framework module Pods_UltiDv_Tests {
+  umbrella header "Pods-UltiDv_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

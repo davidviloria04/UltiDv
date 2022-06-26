@@ -1,0 +1,16 @@
+PODS:
+  - UltiDv (0.1.0)
+
+DEPENDENCIES:
+  - UltiDv (from `../`)
+
+EXTERNAL SOURCES:
+  UltiDv:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  UltiDv: 5662288898ebd0b9f0a45d77575fc8da74c3de67
+
+PODFILE CHECKSUM: 5918a815fdebd6ffaaa43f03ea776cbb68e2b2da
+
+COCOAPODS: 1.11.3
