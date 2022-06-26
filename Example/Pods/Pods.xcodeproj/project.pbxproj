@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		1191CA16A4F93881C9C5F91F231D3EA6 /* Pods-UltiDv_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4CF341FB6A01B4AC77B9EBA8134CAA2 /* Pods-UltiDv_Tests-dummy.m */; };
 		3F1DAAB02867E2BC004DCA87 /* UiView_Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1DAAAF2867E2BC004DCA87 /* UiView_Ext.swift */; };
-		43D3BE4899E4DB715972329A28C049CE /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9F31A42BD36B48EE0B221164D4AAF76 /* ReplaceMe.swift */; };
 		80761FB0FFA9E9DFD77D0542321D200A /* UltiDv-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AD32D22C7E7324CD6637D195FA8FFC13 /* UltiDv-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		939ECA6F82073BD7BB5547226A86DE50 /* Pods-UltiDv_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ACCB940643264FECA42DE0D9A152E695 /* Pods-UltiDv_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A189E6C610C33F9F3F900B6D7B1A7A83 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -41,7 +40,7 @@
 		0658CAEEB62A6CEF0ACE2321915D692D /* Pods-UltiDv_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UltiDv_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		0794D04CDB765EF38AC3C67C332C614F /* UltiDv-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UltiDv-dummy.m"; sourceTree = "<group>"; };
 		17A070E4B2D6C035BB2C52722BEFF749 /* UltiDv.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = UltiDv.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		30C3FA9B9C699D04A8523C93541E0182 /* UltiDv */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = UltiDv; path = UltiDv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30C3FA9B9C699D04A8523C93541E0182 /* UltiDv.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UltiDv.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		39C9FFA1D33EDE5E3EC9BA0713851AA2 /* Pods-UltiDv_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UltiDv_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		3F1DAAAF2867E2BC004DCA87 /* UiView_Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiView_Ext.swift; sourceTree = "<group>"; };
 		4289C09C20DE28E56F063C842A603F42 /* Pods-UltiDv_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UltiDv_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -68,7 +67,6 @@
 		BC191786374787E6F4307512E37CA006 /* Pods-UltiDv_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UltiDv_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C4A0D0126CE4FF30B42230F71D5143E2 /* Pods-UltiDv_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UltiDv_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		D23E2AE21581E2FF4132F5EEA9821250 /* Pods-UltiDv_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UltiDv_Example-Info.plist"; sourceTree = "<group>"; };
-		D9F31A42BD36B48EE0B221164D4AAF76 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = UltiDv/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DC1F5D612F2B5F4C77DEE529E5F514EB /* Pods-UltiDv_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UltiDv_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		F9B4B0A854F9CCDB3FB84B1BEC16F9C4 /* UltiDv.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UltiDv.release.xcconfig; sourceTree = "<group>"; };
 		F9FF57CA151B4A2D6C53FFAB959702C5 /* Pods-UltiDv_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UltiDv_Example-dummy.m"; sourceTree = "<group>"; };
@@ -140,7 +138,6 @@
 		0EF2F9D4C09ECF18FCD18D9544B85188 /* UltiDv */ = {
 			isa = PBXGroup;
 			children = (
-				D9F31A42BD36B48EE0B221164D4AAF76 /* ReplaceMe.swift */,
 				3F1DAAAF2867E2BC004DCA87 /* UiView_Ext.swift */,
 				0DC5541B0D3EA6DF0CCC863727B74B5D /* Pod */,
 				20FC9B12192FB8C7334800C64495B032 /* Support Files */,
@@ -169,7 +166,7 @@
 			children = (
 				4B6A4839777DC927F6B28E4E182A1E67 /* Pods-UltiDv_Example */,
 				9156214E6C912D55934E2AADE0F0463E /* Pods-UltiDv_Tests */,
-				30C3FA9B9C699D04A8523C93541E0182 /* UltiDv */,
+				30C3FA9B9C699D04A8523C93541E0182 /* UltiDv.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -309,7 +306,7 @@
 			);
 			name = UltiDv;
 			productName = UltiDv;
-			productReference = 30C3FA9B9C699D04A8523C93541E0182 /* UltiDv */;
+			productReference = 30C3FA9B9C699D04A8523C93541E0182 /* UltiDv.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -320,6 +317,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					65B47CC2F787DE2BC610B2BEEC3D12ED = {
+						LastSwiftMigration = 1320;
+					};
+				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -371,7 +373,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F1DAAB02867E2BC004DCA87 /* UiView_Ext.swift in Sources */,
-				43D3BE4899E4DB715972329A28C049CE /* ReplaceMe.swift in Sources */,
 				D3DD4C131DB664D2D3030BAE2AC961A3 /* UltiDv-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,7 +435,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -726,7 +727,7 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
